@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.diaemoharrar.lab2.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="406dp"
+        android:layout_height="501dp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <Button
+            android:id="@+id/button_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/go_second_activity"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="200dp"/>
+
+       <TextView
+           android:id="@+id/onCreate"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/on_create"
+           android:layout_above="@id/button_1"
+           android:layout_alignLeft="@id/button_1"
+           android:layout_marginBottom="15dp"/>
+        <TextView
+            android:id="@+id/onCreateNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_above="@id/button_1"
+          android:layout_toRightOf="@id/onCreate"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/onStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/on_start"
+            android:layout_above="@id/onCreate"
+            android:layout_alignLeft="@id/button_1"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:id="@+id/onStartNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_above="@id/onCreate"
+            android:layout_toRightOf="@id/onStart"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/onResume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/on_resume"
+            android:layout_above="@id/onStart"
+            android:layout_alignLeft="@id/button_1"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:id="@+id/onResumeNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_above="@id/onStart"
+            android:layout_toRightOf="@id/onResume"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/onPause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/on_pause"
+            android:layout_above="@id/onResume"
+            android:layout_alignLeft="@id/button_1"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:id="@+id/onPauseNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_above="@id/onResume"
+            android:layout_toRightOf="@id/onPause"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/onRestart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/on_restart"
+            android:layout_above="@id/onPause"
+            android:layout_alignLeft="@id/button_1"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:id="@+id/onRestartNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_above="@id/onPause"
+            android:layout_toRightOf="@id/onRestart"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/onStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/on_stop"
+            android:layout_above="@id/onRestart"
+            android:layout_alignLeft="@id/button_1"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:id="@+id/onStopNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_above="@id/onRestart"
+            android:layout_toRightOf="@id/onStop"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/onDestroy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/on_destroy"
+            android:layout_above="@id/onStop"
+            android:layout_alignLeft="@id/button_1"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:id="@+id/onDestroyNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_above="@id/onStop"
+            android:layout_toRightOf="@id/onDestroy"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="5dp"/>
+
+
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hw2_EmailH_dm1303866</string>
+    <string name="subject">Subject</string>
+    <string name="check">Check This Fact</string>
+    <string name="body">Body</string>
+    <string name="app">Email Handler</string>
+</resources>

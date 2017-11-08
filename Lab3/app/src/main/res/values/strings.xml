@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Books for sale</string>
+    <string name="chapters">Chapters:</string>
+    <string name="year">Year:</string>
+    <string name="name">Name:</string>
+    <string name="the_holy_quran">The Holy Quran</string>
+
+    <string-array name="chapters_array">
+        <item> 1    al-Fatiha   al-faatiha  The opening</item>
+        <item> 2    al-Baqarah   al-baqarah  The Cow</item>
+        <item> 1    al-Imran   aali-\imran  The Imran Family</item>
+        <item> 1    an-Nisa   an-Nisa  The Women</item>
+        <item> 1    al-Ma\idah  al-faatiha  The Food</item>
+        <item> 1    al-An\am   al-an\aam  The Cattle</item>
+    </string-array>
+
+</resources>
